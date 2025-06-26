@@ -138,20 +138,21 @@
 
 
 <!-- Teaser video-->
-<!-- <section class="hero teaser"> -->
-<!--   <div class="container is-max-desktop"> -->
-<!--     <div class="hero-body"> -->
-<!--       <video poster="" id="tree" autoplay controls muted loop height="100%"> -->
-        <!-- Your video here -->
-<!--         <source src="static/videos/banner_video.mp4" -->
-<!--         type="video/mp4"> -->
-<!--       </video> -->
-<!--       <h2 class="subtitle has-text-centered"> -->
-<!--         Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus.  -->
-<!--       </h2> -->
-<!--     </div> -->
-<!--   </div> -->
-<!-- </section> -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/speech-binder-figure1.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Overview of the proposed framework, which consists of four main components: 
+    (1) a Multi-Modal Diffusion Transformer (MM-DiT) that generates video sequences conditioned on text, audio, and visual inputs; 
+    (2) a Face Encoder that extracts facial features;
+    (3) an Audio Encoder that captures motion-related information; and
+    (4) an Embedding Router that binds 'who' and 'speaks what' together, enabling precise audio-to-character correspondence control.
+    Dual mask-guided cross-attention modules in MM-DiT selectively incorporate both motion-related speech information and facial embeddings into visual tokens, using fine-grained masks predicted by the embedding router.
+      </h2>
+    </div>
+  </div>
+</section>
 <!-- End teaser video -->
 
 <!-- Paper abstract -->
