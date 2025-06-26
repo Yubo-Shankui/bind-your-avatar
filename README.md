@@ -1,1 +1,1 @@
-Visit our [project page](https://yubo-shankui.github.io/bind-your-avatar/) and [code]([https://yubo-shankui.github.io/bind-your-avatar/](https://github.com/Yubo-Shankui/Bind-Your-Avatar-Implementation)) to view more detail.
+Visit our [project page](https://yubo-shankui.github.io/bind-your-avatar/) and [code](https://yubo-shankui.github.io/bind-your-avatar/](https://github.com/Yubo-Shankui/Bind-Your-Avatar-Implementation) to view more detail.
