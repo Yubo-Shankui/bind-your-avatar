@@ -148,7 +148,7 @@
         <div class="content has-text-justified">
           <p>
             Recent years have witnessed remarkable advances in audio-driven talking head generation. However, existing approaches predominantly focus on single-character scenarios. While some methods can create separate conversation videos between two individuals, the critical challenge of generating unified conversation videos with multiple physically co-present characters sharing the same spatial environment remains largely unaddressed. This setting presents two key challenges: audio-to-character correspondence control and the lack of suitable datasets featuring multi-character talking videos within the same scene. To address these challenges, we introduce Bind-Your-Avatar, an MM-DiT-based model specifically designed for multi-talking-character video generation in the same scene.
-Specifically, we propose (1) A novel framework incorporating a fine-grained Embedding Router that   <strong>binds</strong>   <strong>'who'</strong> and   <strong>'speak what'</strong> together to address the audio-to-character correspondence control. (2) Two methods for implementing a 3D-mask embedding router that enables frame-wise, fine-grained control of individual characters, with distinct loss functions based on observed geometric priors and a mask refinement strategy to enhance the accuracy and temporal smoothness of the predicted masks. (3) The first dataset, to the best of our knowledge, specifically constructed for multi-talking-character video generation, and accompanied by an open-source data processing pipeline, and (4) A benchmark for the dual-talking-characters video generation, with extensive experiments demonstrating superior performance over multiple state-of-the-art methods. 
+Specifically, we propose (1) A novel framework incorporating a fine-grained Embedding Router that <strong>binds</strong> <strong>'who'</strong> and <strong>'speak what'</strong> together to address the audio-to-character correspondence control. (2) Two methods for implementing a 3D-mask embedding router that enables frame-wise, fine-grained control of individual characters, with distinct loss functions based on observed geometric priors and a mask refinement strategy to enhance the accuracy and temporal smoothness of the predicted masks. (3) The first dataset, to the best of our knowledge, specifically constructed for multi-talking-character video generation, and accompanied by an open-source data processing pipeline, and (4) A benchmark for the dual-talking-characters video generation, with extensive experiments demonstrating superior performance over multiple state-of-the-art methods. 
           </p>
         </div>
       </div>
@@ -198,10 +198,10 @@ Specifically, we propose (1) A novel framework incorporating a fine-grained Embe
       <img src="static/images/speech-binder-figure1.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-left">
         Overview of the proposed framework, which consists of four main components: <br>
-    (1) a Multi-Modal Diffusion   <strong>Transformer (MM-DiT)</strong> that generates video sequences conditioned on text, audio, and visual inputs; <br>
-    (2) a   <strong>Face Encoder</strong> that extracts facial features;<br>
-    (3) an   <strong>Audio Encoder</strong> that captures motion-related information; and<br>
-    (4) an   <strong>Embedding Router</strong> that binds 'who' and 'speaks what' together, enabling precise audio-to-character correspondence control.<br>
+    (1) a Multi-Modal Diffusion Transformer <strong>(MM-DiT)</strong> that generates video sequences conditioned on text, audio, and visual inputs; <br>
+    (2) a <strong>Face Encoder</strong> that extracts facial features;<br>
+    (3) an <strong>Audio Encoder</strong> that captures motion-related information; and<br>
+    (4) an <strong>Embedding Router</strong> that binds 'who' and 'speaks what' together, enabling precise audio-to-character correspondence control.<br>
     Dual mask-guided cross-attention modules in MM-DiT selectively incorporate both motion-related speech information and facial embeddings into visual tokens, using fine-grained masks predicted by the embedding router.
       </h2>
     </div>
